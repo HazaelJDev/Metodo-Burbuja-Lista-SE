@@ -5,8 +5,8 @@ public class Burbuja{
     Nodo na=null,ns=null; //na: Nodo actual; ns = Nodo siguiente;
     //Método de ordenamiento burbuja para arreglos
     public void sortArray(int a[]){
-        for (i=1;i<a.length;i++){
-            for(j=0;j<(a.length-i);j++){
+        for (int i=1;i<a.length;i++){
+            for(int j=0;j<(a.length-i);j++){
                 if(a[j]>a[j+1]){
                     aux = a[j];
                     a[j] = a[j+1];

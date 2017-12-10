@@ -44,8 +44,9 @@ public class ListaSE {
     public void showList(){
         Nodo r = primero;
         while(r != null){
-            System.out.print("| "+r.dat+" |-->");
+            System.out.print("|"+r.dat+"|-->");
+            r = r.sig;
         }
-        System.out.print("null\n");
+        System.out.print(" null\n");
     }
 }
